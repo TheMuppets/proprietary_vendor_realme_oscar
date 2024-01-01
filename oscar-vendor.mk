@@ -25,7 +25,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/oscar/proprietary/odm/etc/acdbdata/MOS/Speaker_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/MOS/Speaker_cal.acdb \
     vendor/realme/oscar/proprietary/odm/etc/acdbdata/Speaker_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Speaker_cal.acdb \
     vendor/realme/oscar/proprietary/odm/etc/bt/apnv11.bin:$(TARGET_COPY_OUT_ODM)/etc/bt/apnv11.bin \
-    vendor/realme/oscar/proprietary/odm/etc/camera/CameraHWConfiguration.config:$(TARGET_COPY_OUT_ODM)/etc/camera/CameraHWConfiguration.config \
+    vendor/realme/oscar/proprietary/odm/overlayfs/cn/etc/camera/CameraHWConfiguration.config:$(TARGET_COPY_OUT_ODM)/overlayfs/cn/etc/camera/CameraHWConfiguration.config \
+    vendor/realme/oscar/proprietary/odm/overlayfs/in/etc/camera/CameraHWConfiguration.config:$(TARGET_COPY_OUT_ODM)/overlayfs/in/etc/camera/CameraHWConfiguration.config \
+    vendor/realme/oscar/proprietary/odm/overlayfs/ru/etc/camera/CameraHWConfiguration.config:$(TARGET_COPY_OUT_ODM)/overlayfs/ru/etc/camera/CameraHWConfiguration.config \
     vendor/realme/oscar/proprietary/odm/etc/camera/aicolor/duallut_background.bmp:$(TARGET_COPY_OUT_ODM)/etc/camera/aicolor/duallut_background.bmp \
     vendor/realme/oscar/proprietary/odm/etc/camera/aicolor/duallut_portrait.bmp:$(TARGET_COPY_OUT_ODM)/etc/camera/aicolor/duallut_portrait.bmp \
     vendor/realme/oscar/proprietary/odm/etc/camera/anc/merged_model:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/merged_model \
@@ -40,21 +42,35 @@ PRODUCT_COPY_FILES += \
     vendor/realme/oscar/proprietary/odm/etc/camera/capture_lutportrait_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/capture_lutportrait_params.json \
     vendor/realme/oscar/proprietary/odm/etc/camera/capture_neonportrait_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/capture_neonportrait_params.json \
     vendor/realme/oscar/proprietary/odm/etc/camera/cfr_bin/CFR_OPlus_EF017_UW_snapshot.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/cfr_bin/CFR_OPlus_EF017_UW_snapshot.bin \
-    vendor/realme/oscar/proprietary/odm/etc/camera/config/camera_unit_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/camera_unit_config \
+    vendor/realme/oscar/proprietary/odm/overlayfs/cn/etc/camera/config/camera_unit_config:$(TARGET_COPY_OUT_ODM)/overlayfs/cn/etc/camera/config/camera_unit_config \
+    vendor/realme/oscar/proprietary/odm/overlayfs/in/etc/camera/config/camera_unit_config:$(TARGET_COPY_OUT_ODM)/overlayfs/in/etc/camera/config/camera_unit_config \
+    vendor/realme/oscar/proprietary/odm/overlayfs/ru/etc/camera/config/camera_unit_config:$(TARGET_COPY_OUT_ODM)/overlayfs/ru/etc/camera/config/camera_unit_config \
     vendor/realme/oscar/proprietary/odm/etc/camera/config/camera_unit_feature_config.protobuf:$(TARGET_COPY_OUT_ODM)/etc/camera/config/camera_unit_feature_config.protobuf \
     vendor/realme/oscar/proprietary/odm/etc/camera/config/gc02m:$(TARGET_COPY_OUT_ODM)/etc/camera/config/gc02m \
-    vendor/realme/oscar/proprietary/odm/etc/camera/config/oplus_camera_algo_switch_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_algo_switch_config \
-    vendor/realme/oscar/proprietary/odm/etc/camera/config/oplus_camera_aps_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_aps_config \
-    vendor/realme/oscar/proprietary/odm/etc/camera/config/oplus_camera_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_config \
-    vendor/realme/oscar/proprietary/odm/etc/camera/config/ov08d10:$(TARGET_COPY_OUT_ODM)/etc/camera/config/ov08d10 \
-    vendor/realme/oscar/proprietary/odm/etc/camera/config/ov64b:$(TARGET_COPY_OUT_ODM)/etc/camera/config/ov64b \
+    vendor/realme/oscar/proprietary/odm/overlayfs/cn/etc/camera/config/oplus_camera_algo_switch_config:$(TARGET_COPY_OUT_ODM)/overlayfs/cn/etc/camera/config/oplus_camera_algo_switch_config \
+    vendor/realme/oscar/proprietary/odm/overlayfs/in/etc/camera/config/oplus_camera_algo_switch_config:$(TARGET_COPY_OUT_ODM)/overlayfs/in/etc/camera/config/oplus_camera_algo_switch_config \
+    vendor/realme/oscar/proprietary/odm/overlayfs/ru/etc/camera/config/oplus_camera_algo_switch_config:$(TARGET_COPY_OUT_ODM)/overlayfs/ru/etc/camera/config/oplus_camera_algo_switch_config \
+    vendor/realme/oscar/proprietary/odm/overlayfs/cn/etc/camera/config/oplus_camera_aps_config:$(TARGET_COPY_OUT_ODM)/overlayfs/cn/etc/camera/config/oplus_camera_aps_config \
+    vendor/realme/oscar/proprietary/odm/overlayfs/in/etc/camera/config/oplus_camera_aps_config:$(TARGET_COPY_OUT_ODM)/overlayfs/in/etc/camera/config/oplus_camera_aps_config \
+    vendor/realme/oscar/proprietary/odm/overlayfs/ru/etc/camera/config/oplus_camera_aps_config:$(TARGET_COPY_OUT_ODM)/overlayfs/ru/etc/camera/config/oplus_camera_aps_config \
+    vendor/realme/oscar/proprietary/odm/overlayfs/cn/etc/camera/config/oplus_camera_config:$(TARGET_COPY_OUT_ODM)/overlayfs/cn/etc/camera/config/oplus_camera_config \
+    vendor/realme/oscar/proprietary/odm/overlayfs/in/etc/camera/config/oplus_camera_config:$(TARGET_COPY_OUT_ODM)/overlayfs/in/etc/camera/config/oplus_camera_config \
+    vendor/realme/oscar/proprietary/odm/overlayfs/ru/etc/camera/config/oplus_camera_config:$(TARGET_COPY_OUT_ODM)/overlayfs/ru/etc/camera/config/oplus_camera_config \
+    vendor/realme/oscar/proprietary/odm/overlayfs/in/etc/camera/config/ov08d10:$(TARGET_COPY_OUT_ODM)/overlayfs/in/etc/camera/config/ov08d10 \
+    vendor/realme/oscar/proprietary/odm/overlayfs/in/etc/camera/config/ov64b:$(TARGET_COPY_OUT_ODM)/overlayfs/in/etc/camera/config/ov64b \
+    vendor/realme/oscar/proprietary/odm/overlayfs/cn/etc/camera/config/s5kjn1:$(TARGET_COPY_OUT_ODM)/overlayfs/cn/etc/camera/config/s5kjn1 \
+    vendor/realme/oscar/proprietary/odm/overlayfs/ru/etc/camera/config/s5kjn1:$(TARGET_COPY_OUT_ODM)/overlayfs/ru/etc/camera/config/s5kjn1 \
     vendor/realme/oscar/proprietary/odm/etc/camera/config/sy_imx471:$(TARGET_COPY_OUT_ODM)/etc/camera/config/sy_imx471 \
     vendor/realme/oscar/proprietary/odm/etc/camera/config/video_beauty_default_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/video_beauty_default_config \
     vendor/realme/oscar/proprietary/odm/etc/camera/darksight/darksight_main.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/darksight/darksight_main.bin \
     vendor/realme/oscar/proprietary/odm/etc/camera/darksight/darksight_ultrawide.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/darksight/darksight_ultrawide.bin \
-    vendor/realme/oscar/proprietary/odm/etc/camera/dualcal_golden.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/dualcal_golden.bin \
+    vendor/realme/oscar/proprietary/odm/overlayfs/cn/etc/camera/dualcal_golden.bin:$(TARGET_COPY_OUT_ODM)/overlayfs/cn/etc/camera/dualcal_golden.bin \
+    vendor/realme/oscar/proprietary/odm/overlayfs/in/etc/camera/dualcal_golden.bin:$(TARGET_COPY_OUT_ODM)/overlayfs/in/etc/camera/dualcal_golden.bin \
+    vendor/realme/oscar/proprietary/odm/overlayfs/ru/etc/camera/dualcal_golden.bin:$(TARGET_COPY_OUT_ODM)/overlayfs/ru/etc/camera/dualcal_golden.bin \
     vendor/realme/oscar/proprietary/odm/etc/camera/eis_camera.vcfg:$(TARGET_COPY_OUT_ODM)/etc/camera/eis_camera.vcfg \
-    vendor/realme/oscar/proprietary/odm/etc/camera/fb_default:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_default \
+    vendor/realme/oscar/proprietary/odm/overlayfs/cn/etc/camera/fb_default:$(TARGET_COPY_OUT_ODM)/overlayfs/cn/etc/camera/fb_default \
+    vendor/realme/oscar/proprietary/odm/overlayfs/in/etc/camera/fb_default:$(TARGET_COPY_OUT_ODM)/overlayfs/in/etc/camera/fb_default \
+    vendor/realme/oscar/proprietary/odm/overlayfs/ru/etc/camera/fb_default:$(TARGET_COPY_OUT_ODM)/overlayfs/ru/etc/camera/fb_default \
     vendor/realme/oscar/proprietary/odm/etc/camera/fb_model/000.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/000.png \
     vendor/realme/oscar/proprietary/odm/etc/camera/fb_model/000_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/000_pre.bin \
     vendor/realme/oscar/proprietary/odm/etc/camera/fb_model/001.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/001.png \
@@ -468,7 +484,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/oscar/proprietary/odm/etc/camera/filters_res/filters_res/overlay_p4_3_weak.png:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_res/filters_res/overlay_p4_3_weak.png \
     vendor/realme/oscar/proprietary/odm/etc/camera/filters_res/lut_all_points.png:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_res/lut_all_points.png \
     vendor/realme/oscar/proprietary/odm/etc/camera/filters_res/overlay_p4_3_weak.png:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_res/overlay_p4_3_weak.png \
-    vendor/realme/oscar/proprietary/odm/etc/camera/fwk_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/fwk_config.json \
+    vendor/realme/oscar/proprietary/odm/overlayfs/cn/etc/camera/fwk_config.json:$(TARGET_COPY_OUT_ODM)/overlayfs/cn/etc/camera/fwk_config.json \
+    vendor/realme/oscar/proprietary/odm/overlayfs/in/etc/camera/fwk_config.json:$(TARGET_COPY_OUT_ODM)/overlayfs/in/etc/camera/fwk_config.json \
+    vendor/realme/oscar/proprietary/odm/overlayfs/ru/etc/camera/fwk_config.json:$(TARGET_COPY_OUT_ODM)/overlayfs/ru/etc/camera/fwk_config.json \
     vendor/realme/oscar/proprietary/odm/etc/camera/gasryuv_1.2_wp.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gasryuv_1.2_wp.model \
     vendor/realme/oscar/proprietary/odm/etc/camera/gesture/modules/tt_hand_box_reg_v12.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/modules/tt_hand_box_reg_v12.0.model \
     vendor/realme/oscar/proprietary/odm/etc/camera/gesture/modules/tt_hand_det_v11.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/modules/tt_hand_det_v11.0.model \
@@ -750,17 +768,19 @@ PRODUCT_COPY_FILES += \
     vendor/realme/oscar/proprietary/odm/etc/sensor.cfg:$(TARGET_COPY_OUT_ODM)/etc/sensor.cfg \
     vendor/realme/oscar/proprietary/odm/etc/sensor/config/alsps.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/alsps.json \
     vendor/realme/oscar/proprietary/odm/etc/sensor/config/holi_alsps.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/holi_alsps.json \
-    vendor/realme/oscar/proprietary/odm/etc/sensor/config/holi_bma4_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/holi_bma4_0.json \
+    vendor/realme/oscar/proprietary/odm/overlayfs/in/etc/sensor/config/holi_bma4_0.json:$(TARGET_COPY_OUT_ODM)/overlayfs/in/etc/sensor/config/holi_bma4_0.json \
     vendor/realme/oscar/proprietary/odm/etc/sensor/config/holi_bmi3x0_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/holi_bmi3x0_0.json \
     vendor/realme/oscar/proprietary/odm/etc/sensor/config/holi_icm4x607.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/holi_icm4x607.json \
     vendor/realme/oscar/proprietary/odm/etc/sensor/config/holi_icm4x6xx.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/holi_icm4x6xx.json \
     vendor/realme/oscar/proprietary/odm/etc/sensor/config/holi_mxg4300_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/holi_mxg4300_0.json \
-    vendor/realme/oscar/proprietary/odm/etc/sensor/config/holi_qrd_bma4_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/holi_qrd_bma4_0.json \
+    vendor/realme/oscar/proprietary/odm/overlayfs/in/etc/sensor/config/holi_qrd_bma4_0.json:$(TARGET_COPY_OUT_ODM)/overlayfs/in/etc/sensor/config/holi_qrd_bma4_0.json \
     vendor/realme/oscar/proprietary/odm/etc/sensor/config/holi_qrd_bmi26x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/holi_qrd_bmi26x_0.json \
     vendor/realme/oscar/proprietary/odm/etc/sensor/config/holi_qrd_mmc56x3x.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/holi_qrd_mmc56x3x.json \
-    vendor/realme/oscar/proprietary/odm/etc/sensor/config/holi_qrd_sc7a20_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/holi_qrd_sc7a20_0.json \
-    vendor/realme/oscar/proprietary/odm/etc/sensor/config/holi_sc7a20_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/holi_sc7a20_0.json \
-    vendor/realme/oscar/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
+    vendor/realme/oscar/proprietary/odm/overlayfs/in/etc/sensor/config/holi_qrd_sc7a20_0.json:$(TARGET_COPY_OUT_ODM)/overlayfs/in/etc/sensor/config/holi_qrd_sc7a20_0.json \
+    vendor/realme/oscar/proprietary/odm/overlayfs/in/etc/sensor/config/holi_sc7a20_0.json:$(TARGET_COPY_OUT_ODM)/overlayfs/in/etc/sensor/config/holi_sc7a20_0.json \
+    vendor/realme/oscar/proprietary/odm/overlayfs/cn/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/overlayfs/cn/etc/sensor/sensor_config.json \
+    vendor/realme/oscar/proprietary/odm/overlayfs/in/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/overlayfs/in/etc/sensor/sensor_config.json \
+    vendor/realme/oscar/proprietary/odm/overlayfs/ru/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/overlayfs/ru/etc/sensor/sensor_config.json \
     vendor/realme/oscar/proprietary/odm/etc/wifi/bdwlan.bin:$(TARGET_COPY_OUT_ODM)/etc/wifi/bdwlan.bin \
     vendor/realme/oscar/proprietary/odm/etc/wifi/regdb.bin:$(TARGET_COPY_OUT_ODM)/etc/wifi/regdb.bin \
     vendor/realme/oscar/proprietary/odm/lib/ese_client.so:$(TARGET_COPY_OUT_ODM)/lib/ese_client.so \
@@ -777,17 +797,31 @@ PRODUCT_COPY_FILES += \
     vendor/realme/oscar/proprietary/odm/lib64/anc.hal.so:$(TARGET_COPY_OUT_ODM)/lib64/anc.hal.so \
     vendor/realme/oscar/proprietary/odm/lib64/android.hardware.biometrics.common-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib64/android.hardware.biometrics.common-V1-ndk_platform.so \
     vendor/realme/oscar/proprietary/odm/lib64/camera/com.qti.sensor.gc02m1.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.gc02m1.so \
-    vendor/realme/oscar/proprietary/odm/lib64/camera/com.qti.sensor.ov08d10.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.ov08d10.so \
-    vendor/realme/oscar/proprietary/odm/lib64/camera/com.qti.sensor.ov64b.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.ov64b.so \
+    vendor/realme/oscar/proprietary/odm/overlayfs/cn/lib64/camera/com.qti.sensor.gc02m1b.so:$(TARGET_COPY_OUT_ODM)/overlayfs/cn/lib64/camera/com.qti.sensor.gc02m1b.so \
+    vendor/realme/oscar/proprietary/odm/overlayfs/ru/lib64/camera/com.qti.sensor.gc02m1b.so:$(TARGET_COPY_OUT_ODM)/overlayfs/ru/lib64/camera/com.qti.sensor.gc02m1b.so \
+    vendor/realme/oscar/proprietary/odm/overlayfs/in/lib64/camera/com.qti.sensor.ov08d10.so:$(TARGET_COPY_OUT_ODM)/overlayfs/in/lib64/camera/com.qti.sensor.ov08d10.so \
+    vendor/realme/oscar/proprietary/odm/overlayfs/in/lib64/camera/com.qti.sensor.ov64b.so:$(TARGET_COPY_OUT_ODM)/overlayfs/in/lib64/camera/com.qti.sensor.ov64b.so \
+    vendor/realme/oscar/proprietary/odm/overlayfs/cn/lib64/camera/com.qti.sensor.s5kjn1.so:$(TARGET_COPY_OUT_ODM)/overlayfs/cn/lib64/camera/com.qti.sensor.s5kjn1.so \
+    vendor/realme/oscar/proprietary/odm/overlayfs/ru/lib64/camera/com.qti.sensor.s5kjn1.so:$(TARGET_COPY_OUT_ODM)/overlayfs/ru/lib64/camera/com.qti.sensor.s5kjn1.so \
     vendor/realme/oscar/proprietary/odm/lib64/camera/com.qti.sensor.sy_imx471.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.sy_imx471.so \
     vendor/realme/oscar/proprietary/odm/lib64/camera/com.qti.sensormodule.gc02m1.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.gc02m1.bin \
-    vendor/realme/oscar/proprietary/odm/lib64/camera/com.qti.sensormodule.ov08d10.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.ov08d10.bin \
-    vendor/realme/oscar/proprietary/odm/lib64/camera/com.qti.sensormodule.ov64b.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.ov64b.bin \
+    vendor/realme/oscar/proprietary/odm/overlayfs/cn/lib64/camera/com.qti.sensormodule.gc02m1b.bin:$(TARGET_COPY_OUT_ODM)/overlayfs/cn/lib64/camera/com.qti.sensormodule.gc02m1b.bin \
+    vendor/realme/oscar/proprietary/odm/overlayfs/ru/lib64/camera/com.qti.sensormodule.gc02m1b.bin:$(TARGET_COPY_OUT_ODM)/overlayfs/ru/lib64/camera/com.qti.sensormodule.gc02m1b.bin \
+    vendor/realme/oscar/proprietary/odm/overlayfs/in/lib64/camera/com.qti.sensormodule.ov08d10.bin:$(TARGET_COPY_OUT_ODM)/overlayfs/in/lib64/camera/com.qti.sensormodule.ov08d10.bin \
+    vendor/realme/oscar/proprietary/odm/overlayfs/in/lib64/camera/com.qti.sensormodule.ov64b.bin:$(TARGET_COPY_OUT_ODM)/overlayfs/in/lib64/camera/com.qti.sensormodule.ov64b.bin \
+    vendor/realme/oscar/proprietary/odm/overlayfs/cn/lib64/camera/com.qti.sensormodule.s5kjn1.bin:$(TARGET_COPY_OUT_ODM)/overlayfs/cn/lib64/camera/com.qti.sensormodule.s5kjn1.bin \
+    vendor/realme/oscar/proprietary/odm/overlayfs/ru/lib64/camera/com.qti.sensormodule.s5kjn1.bin:$(TARGET_COPY_OUT_ODM)/overlayfs/ru/lib64/camera/com.qti.sensormodule.s5kjn1.bin \
     vendor/realme/oscar/proprietary/odm/lib64/camera/com.qti.sensormodule.sy_imx471.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.sy_imx471.bin \
-    vendor/realme/oscar/proprietary/odm/lib64/camera/com.qti.tuned.gc02m1.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.gc02m1.bin \
+    vendor/realme/oscar/proprietary/odm/overlayfs/cn/lib64/camera/com.qti.tuned.gc02m1.bin:$(TARGET_COPY_OUT_ODM)/overlayfs/cn/lib64/camera/com.qti.tuned.gc02m1.bin \
+    vendor/realme/oscar/proprietary/odm/overlayfs/in/lib64/camera/com.qti.tuned.gc02m1.bin:$(TARGET_COPY_OUT_ODM)/overlayfs/in/lib64/camera/com.qti.tuned.gc02m1.bin \
+    vendor/realme/oscar/proprietary/odm/overlayfs/ru/lib64/camera/com.qti.tuned.gc02m1.bin:$(TARGET_COPY_OUT_ODM)/overlayfs/ru/lib64/camera/com.qti.tuned.gc02m1.bin \
+    vendor/realme/oscar/proprietary/odm/overlayfs/cn/lib64/camera/com.qti.tuned.gc02m1b.bin:$(TARGET_COPY_OUT_ODM)/overlayfs/cn/lib64/camera/com.qti.tuned.gc02m1b.bin \
+    vendor/realme/oscar/proprietary/odm/overlayfs/ru/lib64/camera/com.qti.tuned.gc02m1b.bin:$(TARGET_COPY_OUT_ODM)/overlayfs/ru/lib64/camera/com.qti.tuned.gc02m1b.bin \
     vendor/realme/oscar/proprietary/odm/lib64/camera/com.qti.tuned.imx471.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.imx471.bin \
-    vendor/realme/oscar/proprietary/odm/lib64/camera/com.qti.tuned.ov08d10.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.ov08d10.bin \
-    vendor/realme/oscar/proprietary/odm/lib64/camera/com.qti.tuned.ov64b.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.ov64b.bin \
+    vendor/realme/oscar/proprietary/odm/overlayfs/in/lib64/camera/com.qti.tuned.ov08d10.bin:$(TARGET_COPY_OUT_ODM)/overlayfs/in/lib64/camera/com.qti.tuned.ov08d10.bin \
+    vendor/realme/oscar/proprietary/odm/overlayfs/in/lib64/camera/com.qti.tuned.ov64b.bin:$(TARGET_COPY_OUT_ODM)/overlayfs/in/lib64/camera/com.qti.tuned.ov64b.bin \
+    vendor/realme/oscar/proprietary/odm/overlayfs/cn/lib64/camera/com.qti.tuned.s5kjn1.bin:$(TARGET_COPY_OUT_ODM)/overlayfs/cn/lib64/camera/com.qti.tuned.s5kjn1.bin \
+    vendor/realme/oscar/proprietary/odm/overlayfs/ru/lib64/camera/com.qti.tuned.s5kjn1.bin:$(TARGET_COPY_OUT_ODM)/overlayfs/ru/lib64/camera/com.qti.tuned.s5kjn1.bin \
     vendor/realme/oscar/proprietary/odm/lib64/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/fdconfigpreview.bin \
     vendor/realme/oscar/proprietary/odm/lib64/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/fdconfigpreviewlite.bin \
     vendor/realme/oscar/proprietary/odm/lib64/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/fdconfigvideo.bin \
@@ -861,12 +895,22 @@ PRODUCT_COPY_FILES += \
     vendor/realme/oscar/proprietary/odm/lib64/libapsjpeg.so:$(TARGET_COPY_OUT_ODM)/lib64/libapsjpeg.so \
     vendor/realme/oscar/proprietary/odm/lib64/libapspng.so:$(TARGET_COPY_OUT_ODM)/lib64/libapspng.so \
     vendor/realme/oscar/proprietary/odm/lib64/libarcsoft_aicolor_image.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_aicolor_image.so \
-    vendor/realme/oscar/proprietary/odm/lib64/libarcsoft_aicolor_video.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_aicolor_video.so \
+    vendor/realme/oscar/proprietary/odm/overlayfs/cn/lib64/libarcsoft_aicolor_video.so:$(TARGET_COPY_OUT_ODM)/overlayfs/cn/lib64/libarcsoft_aicolor_video.so \
+    vendor/realme/oscar/proprietary/odm/overlayfs/in/lib64/libarcsoft_aicolor_video.so:$(TARGET_COPY_OUT_ODM)/overlayfs/in/lib64/libarcsoft_aicolor_video.so \
+    vendor/realme/oscar/proprietary/odm/overlayfs/ru/lib64/libarcsoft_aicolor_video.so:$(TARGET_COPY_OUT_ODM)/overlayfs/ru/lib64/libarcsoft_aicolor_video.so \
     vendor/realme/oscar/proprietary/odm/lib64/libarcsoft_distortion_correction.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_distortion_correction.so \
-    vendor/realme/oscar/proprietary/odm/lib64/libarcsoft_dualcam_bokeh_api.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_dualcam_bokeh_api.so \
-    vendor/realme/oscar/proprietary/odm/lib64/libarcsoft_dualcam_refocus_left.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_dualcam_refocus_left.so \
-    vendor/realme/oscar/proprietary/odm/lib64/libarcsoft_dualcam_refocus_preview.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_dualcam_refocus_preview.so \
-    vendor/realme/oscar/proprietary/odm/lib64/libarcsoft_dualcam_refocus_uw.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_dualcam_refocus_uw.so \
+    vendor/realme/oscar/proprietary/odm/overlayfs/cn/lib64/libarcsoft_dualcam_bokeh_api.so:$(TARGET_COPY_OUT_ODM)/overlayfs/cn/lib64/libarcsoft_dualcam_bokeh_api.so \
+    vendor/realme/oscar/proprietary/odm/overlayfs/in/lib64/libarcsoft_dualcam_bokeh_api.so:$(TARGET_COPY_OUT_ODM)/overlayfs/in/lib64/libarcsoft_dualcam_bokeh_api.so \
+    vendor/realme/oscar/proprietary/odm/overlayfs/ru/lib64/libarcsoft_dualcam_bokeh_api.so:$(TARGET_COPY_OUT_ODM)/overlayfs/ru/lib64/libarcsoft_dualcam_bokeh_api.so \
+    vendor/realme/oscar/proprietary/odm/overlayfs/cn/lib64/libarcsoft_dualcam_refocus_left.so:$(TARGET_COPY_OUT_ODM)/overlayfs/cn/lib64/libarcsoft_dualcam_refocus_left.so \
+    vendor/realme/oscar/proprietary/odm/overlayfs/in/lib64/libarcsoft_dualcam_refocus_left.so:$(TARGET_COPY_OUT_ODM)/overlayfs/in/lib64/libarcsoft_dualcam_refocus_left.so \
+    vendor/realme/oscar/proprietary/odm/overlayfs/ru/lib64/libarcsoft_dualcam_refocus_left.so:$(TARGET_COPY_OUT_ODM)/overlayfs/ru/lib64/libarcsoft_dualcam_refocus_left.so \
+    vendor/realme/oscar/proprietary/odm/overlayfs/cn/lib64/libarcsoft_dualcam_refocus_preview.so:$(TARGET_COPY_OUT_ODM)/overlayfs/cn/lib64/libarcsoft_dualcam_refocus_preview.so \
+    vendor/realme/oscar/proprietary/odm/overlayfs/in/lib64/libarcsoft_dualcam_refocus_preview.so:$(TARGET_COPY_OUT_ODM)/overlayfs/in/lib64/libarcsoft_dualcam_refocus_preview.so \
+    vendor/realme/oscar/proprietary/odm/overlayfs/ru/lib64/libarcsoft_dualcam_refocus_preview.so:$(TARGET_COPY_OUT_ODM)/overlayfs/ru/lib64/libarcsoft_dualcam_refocus_preview.so \
+    vendor/realme/oscar/proprietary/odm/overlayfs/cn/lib64/libarcsoft_dualcam_refocus_uw.so:$(TARGET_COPY_OUT_ODM)/overlayfs/cn/lib64/libarcsoft_dualcam_refocus_uw.so \
+    vendor/realme/oscar/proprietary/odm/overlayfs/in/lib64/libarcsoft_dualcam_refocus_uw.so:$(TARGET_COPY_OUT_ODM)/overlayfs/in/lib64/libarcsoft_dualcam_refocus_uw.so \
+    vendor/realme/oscar/proprietary/odm/overlayfs/ru/lib64/libarcsoft_dualcam_refocus_uw.so:$(TARGET_COPY_OUT_ODM)/overlayfs/ru/lib64/libarcsoft_dualcam_refocus_uw.so \
     vendor/realme/oscar/proprietary/odm/lib64/libarcsoft_hdr_couple_api.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_hdr_couple_api.so \
     vendor/realme/oscar/proprietary/odm/lib64/libarcsoft_hdr_couple_api_V2.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_hdr_couple_api_V2.so \
     vendor/realme/oscar/proprietary/odm/lib64/libarcsoft_hdr_denoise_api.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_hdr_denoise_api.so \
@@ -875,7 +919,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/oscar/proprietary/odm/lib64/libarcsoft_high_dynamic_range_couple.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_high_dynamic_range_couple.so \
     vendor/realme/oscar/proprietary/odm/lib64/libarcsoft_high_dynamic_range_couple_V2.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_high_dynamic_range_couple_V2.so \
     vendor/realme/oscar/proprietary/odm/lib64/libarcsoft_lensstaindetection.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_lensstaindetection.so \
-    vendor/realme/oscar/proprietary/odm/lib64/libarcsoft_long_exposure_capture.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_long_exposure_capture.so \
+    vendor/realme/oscar/proprietary/odm/overlayfs/cn/lib64/libarcsoft_long_exposure_capture.so:$(TARGET_COPY_OUT_ODM)/overlayfs/cn/lib64/libarcsoft_long_exposure_capture.so \
+    vendor/realme/oscar/proprietary/odm/overlayfs/in/lib64/libarcsoft_long_exposure_capture.so:$(TARGET_COPY_OUT_ODM)/overlayfs/in/lib64/libarcsoft_long_exposure_capture.so \
+    vendor/realme/oscar/proprietary/odm/overlayfs/ru/lib64/libarcsoft_long_exposure_capture.so:$(TARGET_COPY_OUT_ODM)/overlayfs/ru/lib64/libarcsoft_long_exposure_capture.so \
     vendor/realme/oscar/proprietary/odm/lib64/libarcsoft_long_exposure_preview.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_long_exposure_preview.so \
     vendor/realme/oscar/proprietary/odm/lib64/libarcsoft_low_light_hdr.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_low_light_hdr.so \
     vendor/realme/oscar/proprietary/odm/lib64/libarcsoft_low_light_hdr_for_neon.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_low_light_hdr_for_neon.so \
@@ -1179,7 +1225,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/oscar/proprietary/vendor/lib64/com.qualcomm.mcx.policy.mfl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.mcx.policy.mfl.so \
     vendor/realme/oscar/proprietary/vendor/lib64/com.qualcomm.qti.mcx.usecase.extension.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.mcx.usecase.extension.so \
     vendor/realme/oscar/proprietary/vendor/lib64/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.qcom.so \
-    vendor/realme/oscar/proprietary/vendor/lib64/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qti.chi.override.so \
+    vendor/realme/oscar/proprietary/vendor/overlayfs/cn/lib64/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/overlayfs/cn/lib64/hw/com.qti.chi.override.so \
+    vendor/realme/oscar/proprietary/vendor/overlayfs/in/lib64/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/overlayfs/in/lib64/hw/com.qti.chi.override.so \
+    vendor/realme/oscar/proprietary/vendor/overlayfs/ru/lib64/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/overlayfs/ru/lib64/hw/com.qti.chi.override.so \
     vendor/realme/oscar/proprietary/vendor/lib64/libOppoCentorStage.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOppoCentorStage.so \
     vendor/realme/oscar/proprietary/vendor/lib64/libSonyIMX471RmscLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSonyIMX471RmscLibrary.so \
     vendor/realme/oscar/proprietary/vendor/lib64/libVideoEnhance.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libVideoEnhance.so \
