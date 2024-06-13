@@ -123,9 +123,9 @@
   "VendorTag": "com.oplus.aps.params.bokeh",
   "Type": "Int32",
   "Count": "81",
-  "Value": "    0,      4,    1,           0,              1,                  0,                       1000,              4000,3000,4000,3000,4000,3000,4000,3000,1,0,        1600,1200,1600,1200,1600,1200,1600,1200,1,0,
-                0,      4,    1,           0,              1,                  0,                       1000,              4000,3000,4000,3000,4000,3000,4000,3000,1,0,        1600,1200,1600,1200,1600,1200,1600,1200,1,0,
-                0,      4,    1,           0,              1,                  0,                       1000,              4000,3000,4000,3000,4000,3000,4000,3000,1,0,        1600,1200,1600,1200,1600,1200,1600,1200,1,0",
+  "Value": "    0,      4,    1,           0,              1,                  0,                       400,              4000,3000,4000,3000,4000,3000,4000,3000,1,0,        1600,1200,1600,1200,1600,1200,1600,1200,1,0,
+                0,      4,    1,           0,              1,                  0,                       400,              4000,3000,4000,3000,4000,3000,4000,3000,1,0,        1600,1200,1600,1200,1600,1200,1600,1200,1,0,
+                0,      4,    1,           0,              1,                  0,                       400,              4000,3000,4000,3000,4000,3000,4000,3000,1,0,        1600,1200,1600,1200,1600,1200,1600,1200,1,0",
   "Comment": "rotation, mode, dualCalitype,  isTeleMaster, isAppSetBlurintensity, foregroundBlurScale, runTimeMemSize,  masterImageInfo /*struct cameraImageSize_t*/,       slaveImageInfo /*struct cameraImageSize_t*/"
 },
 
@@ -2156,6 +2156,34 @@
   "Type": "Int32",
   "Count": "1",
   "Value": "4"
+},
+
+{
+  "VendorTag": "com.oplus.aps.rtb.bindCpuCores",
+  "Type": "Int32",
+  "Count": "1",
+  "Value": "240"
+},
+
+{
+  "VendorTag": "com.oplus.aps.preview.bindCpuCores",
+  "Type": "Int32",
+  "Count": "1",
+  "Value": "240"
+},
+
+{
+  "VendorTag": "com.oplus.aps.getReference.bindCpuCores",
+  "Type": "Int32",
+  "Count": "1",
+  "Value": "112"
+},
+
+{
+  "VendorTag": "com.oplus.algo.uninit.delay.time",
+  "Type": "Int32",
+  "Count": "1",
+  "Value": "15"
 },
 
 {

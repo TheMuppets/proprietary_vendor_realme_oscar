@@ -1400,7 +1400,7 @@
                             "skip_frame_cnt": 0,
                             "pipeline_copy_from": "",
                             "algonode_copy_from": "",
-                            "algo_list": [ "preview_default" ]
+                            "algo_list": [ "preview_edge_filter" ]
                         },
                         "video": {
                             "enable": 0

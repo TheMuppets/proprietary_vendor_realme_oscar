@@ -28,6 +28,41 @@
 },
 
 {
+  "VendorTag": "com.oplus.feature.face.beauty.custom.menu.refinement.support",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "0"
+},
+
+{
+  "VendorTag": "com.oplus.feature.qr.code.scanner.support",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "1"
+},
+
+{
+ "VendorTag":"com.oplus.support.professional.mode.in.headline",
+ "Type": "Byte",
+ "Count": "1",
+ "Value": "0"
+},
+
+{
+  "VendorTag": "com.oplus.feature.custom.makeup.watermark.support",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "1"
+},
+
+{
+  "VendorTag": "com.oplus.watermark.is.new.project.behavior",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "1"
+},
+
+{
   "VendorTag": "com.oplus.camera.athena.target.mem.low",
   "Type": "Float",
   "Count": "1",
@@ -326,13 +361,6 @@
   "Type": "Int32",
   "Count": "1",
   "Value": "120"
-},
-
-{
-  "VendorTag": "com.oplus.tunning.720p.hfr.fps",
-  "Type": "Int32",
-  "Count": "1",
-  "Value": "240"
 },
 
 {
@@ -707,13 +735,6 @@
 },
 
 {
-  "VendorTag": "com.oplus.feature.movie.mode.support",
-  "Type": "Byte",
-  "Count": "1",
-  "Value": "0"
-},
-
-{
   "VendorTag": "com.oplus.feature.landscape.camera.sensor.support",
   "Type": "Byte",
   "Count": "1",
@@ -917,13 +938,6 @@
 },
 
 {
-  "VendorTag": "com.oplus.feature.id.photo.support",
-  "Type": "Byte",
-  "Count": "1",
-  "Value": "0"
-},
-
-{
   "VendorTag": "com.oplus.rear.portrait.previewsize",
   "Type": "Int32",
   "Count": "2",
@@ -1061,6 +1075,20 @@
 },
 
 {
+  "VendorTag": "com.oplus.camera.support.activity.rotate",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "1"
+},
+
+{
+  "VendorTag": "com.oplus.jpeg.quality.value",
+  "Type": "Int32",
+  "Count": "1",
+  "Value": "95"
+},
+
+{
   "VendorTag": "com.oplus.street.filter.type.list",
   "Type": "String",
   "Count": "9",
@@ -1121,6 +1149,13 @@
   "Type": "Byte",
   "Count": "1",
   "Value": "1"
+},
+
+{
+  "VendorTag": "com.oplus.street.default.zoom.focal.length.config",
+  "Type": "String",
+  "Count": "1",
+  "Value": "1(25)"
 },
 
 {
@@ -1229,7 +1264,21 @@
   "VendorTag": "com.oplus.hal.memory.common",
   "Type": "Int32",
   "Count": "1",
-  "Value": "700"
+  "Value": "500"
+},
+
+{
+  "VendorTag":"com.oplus.fast.shot.interval",
+  "Type": "Int32",
+  "Count": "1",
+  "Value": "300"
+},
+
+{
+  "VendorTag": "com.oplus.fast.shot.support",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "1"
 },
 
 {

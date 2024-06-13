@@ -123,9 +123,9 @@
   "VendorTag": "com.oplus.aps.params.bokeh",
   "Type": "Int32",
   "Count": "81",
-  "Value": "    0,      4,    1,           0,              1,                  0,                       600,              4000,3000,4000,3000,4000,3000,4000,3000,1,0,        1600,1200,1600,1200,1600,1200,1600,1200,1,0,
-                0,      4,    1,           0,              1,                  0,                       600,              4000,3000,4000,3000,4000,3000,4000,3000,1,0,        1600,1200,1600,1200,1600,1200,1600,1200,1,0,
-                0,      4,    1,           0,              1,                  0,                       600,              4000,3000,4000,3000,4000,3000,4000,3000,1,0,        1600,1200,1600,1200,1600,1200,1600,1200,1,0",
+  "Value": "    0,      4,    1,           0,              1,                  0,                       400,              4000,3000,4000,3000,4000,3000,4000,3000,1,0,        1600,1200,1600,1200,1600,1200,1600,1200,1,0,
+                0,      4,    1,           0,              1,                  0,                       400,              4000,3000,4000,3000,4000,3000,4000,3000,1,0,        1600,1200,1600,1200,1600,1200,1600,1200,1,0,
+                0,      4,    1,           0,              1,                  0,                       400,              4000,3000,4000,3000,4000,3000,4000,3000,1,0,        1600,1200,1600,1200,1600,1200,1600,1200,1,0",
   "Comment": "rotation, mode, dualCalitype,  isTeleMaster, isAppSetBlurintensity, foregroundBlurScale, runTimeMemSize,  masterImageInfo /*struct cameraImageSize_t*/,       slaveImageInfo /*struct cameraImageSize_t*/"
 },
 
@@ -2167,10 +2167,53 @@
 },
 
 {
+  "VendorTag": "com.oplus.aps.rtb.bindCpuCores",
+  "Type": "Int32",
+  "Count": "1",
+  "Value": "240"
+},
+
+{
+  "VendorTag": "com.oplus.aps.FrontNightV3.thread.priority",
+  "Type": "Int32",
+  "Count": "1",
+  "Value": "-20"
+},
+
+{
+  "VendorTag": "com.oplus.aps.preview.bindCpuCores",
+  "Type": "Int32",
+  "Count": "1",
+  "Value": "240"
+},
+
+{
+  "VendorTag": "com.oplus.aps.getReference.bindCpuCores",
+  "Type": "Int32",
+  "Count": "1",
+  "Value": "112"
+},
+
+{
+  "VendorTag": "com.oplus.algo.uninit.delay.time",
+  "Type": "Int32",
+  "Count": "1",
+  "Value": "15"
+},
+
+{
   "VendorTag": "com.oplus.aps.ux.preview_rtb",
   "Type": "Int32",
   "Count": "1",
   "Value": "4",
   "Comment": "version3.0 set 1;version4.0:(light scene:1;heavy scene:2;draw scene:4;list pick:8;default 1)"
+},
+
+{
+  "VendorTag": "com.oplus.aps.two.significant.figures",
+  "Type": "Int32",
+  "Count": "1",
+  "Value": "1"
 }
+
 ]
