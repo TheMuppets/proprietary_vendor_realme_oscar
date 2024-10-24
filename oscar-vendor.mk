@@ -1203,3 +1203,6 @@ PRODUCT_PACKAGES += \
     manifest_oplus_fingerprint.xml \
     vendor.oplus.hardware.biometrics.fingerprint@2.1-service \
     init.oplus.fingerprints
+
+PRODUCT_PACKAGES += \
+    odm_etc_acdbdata_adsp_avs_config_acdb
