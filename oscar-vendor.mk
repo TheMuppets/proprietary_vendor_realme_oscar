@@ -1178,7 +1178,6 @@ PRODUCT_PACKAGES += \
     libmpbase \
     libop-ai-beauty-body-detection \
     libop-ai-beauty-faceretouch-cn \
-    liboplusblur_capture_api \
     libormshalclient \
     libosenseaidlhalclient \
     libosensehalclient \

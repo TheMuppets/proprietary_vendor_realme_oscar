@@ -1271,7 +1271,7 @@
   "VendorTag": "com.oplus.hal.memory.common",
   "Type": "Int32",
   "Count": "1",
-  "Value": "500"
+  "Value": "700"
 },
 
 {
@@ -1297,20 +1297,6 @@
 
 {
   "VendorTag": "com.oplus.maincamera.asd.aiscene.support",
-  "Type": "Byte",
-  "Count": "1",
-  "Value": "1"
-},
-
-{
-  "VendorTag":"com.oplus.fast.shot.interval",
-  "Type": "Int32",
-  "Count": "1",
-  "Value": "300"
-},
-
-{
-  "VendorTag": "com.oplus.fast.shot.support",
   "Type": "Byte",
   "Count": "1",
   "Value": "1"
