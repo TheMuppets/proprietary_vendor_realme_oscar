@@ -1055,7 +1055,6 @@ PRODUCT_PACKAGES += \
     libtfestriping \
     libthreadutils \
     vendor.oplus.hardware.cammidasservice@1.0 \
-    vendor.oplus.hardware.osense.client-V1-ndk_platform \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
     libVDBayerHDR \
     libVDExternal \
@@ -1196,8 +1195,6 @@ PRODUCT_PACKAGES += \
     libsymphony-cpu \
     libwatermark_photo \
     libyuvwrapper \
-    vendor.oplus.hardware.cammidasservice-V1-ndk_platform \
-    vendor.oplus.hardware.commondcs-V1-ndk_platform \
     vendor.oplus.hardware.orms@1.0 \
     vendor.oplus.hardware.osense.client@1.0 \
     manifest_oplus_fingerprint.xml \
