@@ -684,6 +684,37 @@ PRODUCT_COPY_FILES += \
     vendor/realme/oscar/proprietary/odm/etc/sensor/config/holi_qrd_mmc56x3x.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/holi_qrd_mmc56x3x.json \
     vendor/realme/oscar/proprietary/odm/etc/wifi/bdwlan.bin:$(TARGET_COPY_OUT_ODM)/etc/wifi/bdwlan.bin \
     vendor/realme/oscar/proprietary/odm/etc/wifi/regdb.bin:$(TARGET_COPY_OUT_ODM)/etc/wifi/regdb.bin \
+    vendor/realme/oscar/proprietary/odm/firmware/tp/2162B/FW_NF_ILI7807S_DSJM.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/2162B/FW_NF_ILI7807S_DSJM.img \
+    vendor/realme/oscar/proprietary/odm/firmware/tp/2162B/FW_NF_ILI7807S_DSJM_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/2162B/FW_NF_ILI7807S_DSJM_FAE.img \
+    vendor/realme/oscar/proprietary/odm/firmware/tp/2162B/LIMIT_NF_ILI7807S_DSJM.ini:$(TARGET_COPY_OUT_ODM)/firmware/tp/2162B/LIMIT_NF_ILI7807S_DSJM.ini \
+    vendor/realme/oscar/proprietary/odm/firmware/tp/216EA/FW_NF_ILI7807S_TIANMA.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/216EA/FW_NF_ILI7807S_TIANMA.img \
+    vendor/realme/oscar/proprietary/odm/firmware/tp/216EA/FW_NF_ILI7807S_TIANMA_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/216EA/FW_NF_ILI7807S_TIANMA_FAE.img \
+    vendor/realme/oscar/proprietary/odm/firmware/tp/216EA/FW_NF_NT36672C_DSJM.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/216EA/FW_NF_NT36672C_DSJM.img \
+    vendor/realme/oscar/proprietary/odm/firmware/tp/216EA/FW_NF_NT36672C_DSJM_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/216EA/FW_NF_NT36672C_DSJM_FAE.img \
+    vendor/realme/oscar/proprietary/odm/firmware/tp/216EA/FW_NF_NT36672C_DSJM_TEST.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/216EA/FW_NF_NT36672C_DSJM_TEST.bin \
+    vendor/realme/oscar/proprietary/odm/firmware/tp/216EA/FW_NF_NT36672C_TIANMA.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/216EA/FW_NF_NT36672C_TIANMA.img \
+    vendor/realme/oscar/proprietary/odm/firmware/tp/216EA/FW_NF_NT36672C_TIANMA_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/216EA/FW_NF_NT36672C_TIANMA_FAE.img \
+    vendor/realme/oscar/proprietary/odm/firmware/tp/216EA/FW_NF_NT36672C_TIANMA_TEST.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/216EA/FW_NF_NT36672C_TIANMA_TEST.bin \
+    vendor/realme/oscar/proprietary/odm/firmware/tp/216EA/LIMIT_NF_ILI7807S_TIANMA.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/216EA/LIMIT_NF_ILI7807S_TIANMA.img \
+    vendor/realme/oscar/proprietary/odm/firmware/tp/216EA/LIMIT_NF_NT36672C_DSJM.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/216EA/LIMIT_NF_NT36672C_DSJM.img \
+    vendor/realme/oscar/proprietary/odm/firmware/tp/216EA/LIMIT_NF_NT36672C_TIANMA.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/216EA/LIMIT_NF_NT36672C_TIANMA.img \
+    vendor/realme/oscar/proprietary/odm/firmware/tp/21707/FW_NF_ILI7807S_DSJM.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21707/FW_NF_ILI7807S_DSJM.img \
+    vendor/realme/oscar/proprietary/odm/firmware/tp/21707/FW_NF_ILI7807S_DSJM_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21707/FW_NF_ILI7807S_DSJM_FAE.img \
+    vendor/realme/oscar/proprietary/odm/firmware/tp/21707/FW_NF_TD4377_DSJM.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21707/FW_NF_TD4377_DSJM.img \
+    vendor/realme/oscar/proprietary/odm/firmware/tp/21707/FW_NF_TD4377_DSJM_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21707/FW_NF_TD4377_DSJM_FAE.img \
+    vendor/realme/oscar/proprietary/odm/firmware/tp/21707/LIMIT_NF_ILI7807S_DSJM.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21707/LIMIT_NF_ILI7807S_DSJM.img \
+    vendor/realme/oscar/proprietary/odm/firmware/tp/21707/LIMIT_NF_TD4377_DSJM.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21707/LIMIT_NF_TD4377_DSJM.img \
+    vendor/realme/oscar/proprietary/odm/firmware/tp/21708/FW_NF_ILI7807S_TIANMA.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21708/FW_NF_ILI7807S_TIANMA.img \
+    vendor/realme/oscar/proprietary/odm/firmware/tp/21708/FW_NF_ILI7807S_TIANMA_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21708/FW_NF_ILI7807S_TIANMA_FAE.img \
+    vendor/realme/oscar/proprietary/odm/firmware/tp/21708/FW_NF_NT36672C_DSJM.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21708/FW_NF_NT36672C_DSJM.img \
+    vendor/realme/oscar/proprietary/odm/firmware/tp/21708/FW_NF_NT36672C_DSJM_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21708/FW_NF_NT36672C_DSJM_FAE.img \
+    vendor/realme/oscar/proprietary/odm/firmware/tp/21708/FW_NF_NT36672C_DSJM_TEST.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/21708/FW_NF_NT36672C_DSJM_TEST.bin \
+    vendor/realme/oscar/proprietary/odm/firmware/tp/21708/FW_NF_NT36672C_TIANMA.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21708/FW_NF_NT36672C_TIANMA.img \
+    vendor/realme/oscar/proprietary/odm/firmware/tp/21708/FW_NF_NT36672C_TIANMA_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21708/FW_NF_NT36672C_TIANMA_FAE.img \
+    vendor/realme/oscar/proprietary/odm/firmware/tp/21708/FW_NF_NT36672C_TIANMA_TEST.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/21708/FW_NF_NT36672C_TIANMA_TEST.bin \
+    vendor/realme/oscar/proprietary/odm/firmware/tp/21708/LIMIT_NF_ILI7807S_TIANMA.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21708/LIMIT_NF_ILI7807S_TIANMA.img \
+    vendor/realme/oscar/proprietary/odm/firmware/tp/21708/LIMIT_NF_NT36672C_DSJM.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21708/LIMIT_NF_NT36672C_DSJM.img \
+    vendor/realme/oscar/proprietary/odm/firmware/tp/21708/LIMIT_NF_NT36672C_TIANMA.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21708/LIMIT_NF_NT36672C_TIANMA.img \
     vendor/realme/oscar/proprietary/odm/lib64/camera/com.qti.sensormodule.gc02m1.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.gc02m1.bin \
     vendor/realme/oscar/proprietary/odm/lib64/camera/com.qti.sensormodule.gc02m1b.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.gc02m1b.bin \
     vendor/realme/oscar/proprietary/odm/lib64/camera/com.qti.sensormodule.ov08d10.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.ov08d10.bin \
